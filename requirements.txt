@@ -1,0 +1,5 @@
+click
+validators
+segno
+opencv-python
+numpy
