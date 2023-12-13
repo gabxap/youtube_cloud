@@ -23,9 +23,21 @@ Inspired by BK Binary's <a href="https://www.youtube.com/watch?v=_w6PCHutmb4">vi
 
 ## Getting Started
 
+### Prerequisites
+
+Before installing YouTube Cloud, you need to have the following tools installed on your system:
+
+- `youtube-dl`: A command-line program to download videos from YouTube.com and other video sites.
+- `zbar`: A command-line utility for reading barcodes from various sources such as images and video streams.
+
+Please refer to the official documentation for installation instructions:
+
+- [youtube-dl installation guide](https://github.com/ytdl-org/youtube-dl#installation)
+- [zbar installation guide](https://github.com/mchehab/zbar)
+
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/youtube_cloud.git
+git clone https://github.com/gabxap/youtube_cloud.git
 cd youtube_cloud
 pip install -r requirements.txt
