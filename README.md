@@ -78,10 +78,10 @@ To decode a video back into its original file, follow these steps:
     python youtube_cloud.py decode <video_path_or_url>
     ```
 
-    For example, to decode a local video file named document.mp4, your command might be:
+    For example, to decode a local video file named document.pdf.mp4, your command might be:
 
     ```bash
-    python youtube_cloud.py decode /Users/yourusername/Documents/document.mp4
+    python youtube_cloud.py decode /Users/yourusername/Documents/document.pdf.mp4
     ```
 
     Alternatively, to decode a video from YouTube, your command might look like this:
