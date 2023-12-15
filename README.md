@@ -41,3 +41,57 @@ Please refer to the official documentation for installation instructions:
 git clone https://github.com/gabxap/youtube_cloud.git
 cd youtube_cloud
 pip install -r requirements.txt
+```
+
+## How to use
+
+### Encoding Files into Videos
+
+Follow these steps to encode your files into a video format:
+
+1. **Prepare Your File**: Make sure the file you want to encode is saved on your computer and you know its path.
+
+2. **Open the Terminal**: Navigate to the directory where you have installed YouTube Cloud.
+
+3. **Run the Encode Command**: Use the `encode` command to convert your file into a video. Replace `<file_path>` with the path to your file. The command format is as follows:
+
+```bash
+python youtube_cloud.py encode <file_path>
+```
+
+For example, if your file is named document.pdf and located in your Documents folder, the command might look like this:
+
+
+```bash
+python youtube_cloud.py encode /Users/yourusername/Documents/document.pdf
+```
+4. **Locate the Output Video**: After the encoding process completes, find the generated video in the same directory as your original file. The video will have the same name as your file but with an extra `.mp4` extension.
+
+
+
+
+### Decoding Videos into Files
+To decode a video back into its original file format, follow these steps:
+
+1. **Prepare Your Video**: Ensure the video you want to decode is either downloaded on your computer or available on YouTube.
+
+2. **Open the Terminal**: Go to the directory where YouTube Cloud is installed.
+
+3. **Run the Decode Command**: Use the `decode` command to convert your video back into the original file. Replace `<video_path_or_url>` with the path to your video file or the YouTube URL. The command format is: 
+
+```bash
+python youtube_cloud.py decode <video_path_or_url>
+```
+
+For example, to decode a local video file named document.mp4, your command might be:
+
+```bash
+python youtube_cloud.py decode /Users/yourusername/Documents/document.mp4
+```
+
+Alternatively, to decode a video from a YouTube URL, your command might look like this:
+
+```bash
+python youtube_cloud.py decode https://www.youtube.com/watch?v=example```
+```
+
