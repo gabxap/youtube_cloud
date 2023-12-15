@@ -92,6 +92,6 @@ python youtube_cloud.py decode /Users/yourusername/Documents/document.mp4
 Alternatively, to decode a video from a YouTube URL, your command might look like this:
 
 ```bash
-python youtube_cloud.py decode https://www.youtube.com/watch?v=example```
+python youtube_cloud.py decode https://www.youtube.com/watch?v=7Ib19pl5Di0
 ```
 
