@@ -47,8 +47,6 @@ pip install -r requirements.txt
 
 ### Encoding Files into Videos 
 
-Follow these steps to encode your files into a video format:
-
 1. **Prepare Your File**: Make sure the file you want to encode is saved on your computer and you know its path.
 
 2. **Open the Terminal**: Navigate to the directory where you have installed YouTube Cloud.
@@ -66,7 +64,6 @@ Follow these steps to encode your files into a video format:
 5. **Locate the Output Video**: After the encoding process completes, find the generated video in the same directory as your original file. The video will have the same name as your file but with an extra `.mp4` extension.
 
 ### Decoding Videos into Files 
-To decode a video back into its original file format, follow these steps:
 
 1. **Prepare Your Video**: Ensure the video you want to decode is either downloaded on your computer or available on YouTube.
 
