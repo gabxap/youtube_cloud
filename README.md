@@ -47,6 +47,8 @@ pip install -r requirements.txt
 
 ### Encoding Files into Videos 
 
+Follow these steps to encode your files into a video:
+
 1. **Prepare Your File**: Make sure the file you want to encode is saved on your computer and you know its path.
 
 2. **Open the Terminal**: Navigate to the directory where you have installed YouTube Cloud.
@@ -57,13 +59,14 @@ pip install -r requirements.txt
     python youtube_cloud.py encode <file_path>
     ```
 
-4. For example, if your file is named document.pdf and located in your Documents folder, the command might look like this:
+    For example, if your file is named document.pdf and located in your Documents folder, the command might look like this:
     ```bash
     python youtube_cloud.py encode /Users/yourusername/Documents/document.pdf
     ```
-5. **Locate the Output Video**: After the encoding process completes, find the generated video in the same directory as your original file. The video will have the same name as your file but with an extra `.mp4` extension.
+4. **Locate the Output Video**: After the encoding process completes, find the generated video in the same directory as your original file. The video will have the same name as your file but with an extra `.mp4` extension.
 
 ### Decoding Videos into Files 
+To decode a video back into its original file, follow these steps:
 
 1. **Prepare Your Video**: Ensure the video you want to decode is either downloaded on your computer or available on YouTube.
 
@@ -75,7 +78,7 @@ pip install -r requirements.txt
     python youtube_cloud.py decode <video_path_or_url>
     ```
 
-4. For example, to decode a local video file named document.mp4, your command might be:
+    For example, to decode a local video file named document.mp4, your command might be:
 
     ```bash
     python youtube_cloud.py decode /Users/yourusername/Documents/document.mp4
