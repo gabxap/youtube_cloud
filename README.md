@@ -55,20 +55,15 @@ Follow these steps to encode your files into a video format:
 
 3. **Run the Encode Command**: Use the `encode` command to convert your file into a video. Replace `<file_path>` with the path to your file. The command format is as follows:
 
-```bash
-python youtube_cloud.py encode <file_path>
-```
+    ```bash
+    python youtube_cloud.py encode <file_path>
+    ```
 
-For example, if your file is named document.pdf and located in your Documents folder, the command might look like this:
-
-
-```bash
-python youtube_cloud.py encode /Users/yourusername/Documents/document.pdf
-```
-4. **Locate the Output Video**: After the encoding process completes, find the generated video in the same directory as your original file. The video will have the same name as your file but with an extra `.mp4` extension.
-
-
-
+4. For example, if your file is named document.pdf and located in your Documents folder, the command might look like this:
+    ```bash
+    python youtube_cloud.py encode /Users/yourusername/Documents/document.pdf
+    ```
+5. **Locate the Output Video**: After the encoding process completes, find the generated video in the same directory as your original file. The video will have the same name as your file but with an extra `.mp4` extension.
 
 ### Decoding Videos into Files
 To decode a video back into its original file format, follow these steps:
@@ -79,19 +74,19 @@ To decode a video back into its original file format, follow these steps:
 
 3. **Run the Decode Command**: Use the `decode` command to convert your video back into the original file. Replace `<video_path_or_url>` with the path to your video file or the YouTube URL. The command format is: 
 
-```bash
-python youtube_cloud.py decode <video_path_or_url>
-```
+    ```bash
+    python youtube_cloud.py decode <video_path_or_url>
+    ```
 
-For example, to decode a local video file named document.mp4, your command might be:
+4. For example, to decode a local video file named document.mp4, your command might be:
 
-```bash
-python youtube_cloud.py decode /Users/yourusername/Documents/document.mp4
-```
+    ```bash
+    python youtube_cloud.py decode /Users/yourusername/Documents/document.mp4
+    ```
 
-Alternatively, to decode a video from a YouTube URL, your command might look like this:
+    Alternatively, to decode a video from a YouTube URL, your command might look like this:
 
-```bash
-python youtube_cloud.py decode https://www.youtube.com/watch?v=7Ib19pl5Di0
-```
+    ```bash
+    python youtube_cloud.py decode https://www.youtube.com/watch?v=7Ib19pl5Di0
+    ```
 
