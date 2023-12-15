@@ -4,8 +4,7 @@
 
 <h1 align="center">YouTube Cloud</h1>
 <p align="center">
-  A tool that encodes any file into a video, and seamlessly decodes a video back to the original file.
-</p>
+Built for YouTube, this tool encodes any file into a video and seamlessly decodes the video back to the original file.</p>
 <p align="center">📄 ➡️ 🎥 ➡️ 📄</p>
 
 
