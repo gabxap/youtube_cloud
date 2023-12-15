@@ -87,4 +87,5 @@ To decode a video back into its original file, follow these steps:
     ```bash
     python youtube_cloud.py decode https://www.youtube.com/watch?v=7Ib19pl5Di0
     ```
+4. **Locate the Decoded File**: Once the decoding process is complete, you'll find the restored original file in the same directory as the video. The file will have its original name and format, just as it was before encoding.
 
